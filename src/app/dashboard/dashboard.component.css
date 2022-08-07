@@ -1,0 +1,1734 @@
+.heading {
+    top: 111px;
+    left: 40px;
+    height: 28px;
+    text-align: left;
+    font: bold 28px Calibri;
+    letter-spacing: 0px;
+    color: #000000;
+    text-decoration: none;
+
+}
+#prodDisplay{
+    display: none;
+}
+.container {
+    padding: 0px 40px;
+
+}
+.stock{
+    background: url("../../assets/available_img.png") no-repeat;
+    
+    width: 17px;
+    position: absolute;
+    height: 17px;
+   
+    margin-left: 10px;
+    background-size: 100% 100%;
+}
+
+
+.warn{
+    background: url("../../assets/warning.png") no-repeat;
+    
+    width: 20px;
+    position: absolute;
+    height: 20px;
+   
+    margin-left: 10px;
+    background-size: 100% 100%;
+}
+.stocking{
+    position: relative;
+    top:25px;
+}
+.outOfstock{
+  
+        background: url("../../assets/error-icon-png-28.jpg") no-repeat;
+        
+        width: 17px;
+        position: absolute;
+        height: 17px;
+       
+        margin-left: 10px;
+        background-size: 100% 100%;
+    
+}
+.filter {
+    font-style: italic;
+    float: left;
+    font: 16px Calibri;
+    color: #363636;
+    width: 105px;
+
+}
+
+.sort {
+    font-style: italic;
+    float: right;
+    font: 16px Calibri;
+    color: #363636;
+    width: 70%;
+    text-align: right;
+}
+
+.products {
+    height: 175px;
+
+}
+
+.main-product {
+    float: left;
+    width: 49%;
+    padding: 5px;
+}
+
+.badge {
+    width: 153px;
+    height: 24px;
+    background: #FFA500 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+    z-index: 1;
+    position: relative;
+    top: 12px;
+}
+
+.badge-text {
+    color: #000000;
+    font: bold 14px Calibri;
+    padding: 5px;
+    text-align: center;
+}
+
+.popular-products {
+
+
+
+    height: 190px;
+    position: relative;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 1px 20px #00000008;
+    display: flex;
+}
+
+.blid {
+    position: absolute;
+    bottom: 97px;
+    left: 118px;
+    width: 41px;
+    height: 73px
+}
+
+.tyre {
+    width: 123px;
+    height: 123px;
+    position: relative;
+    top: 36px;
+}
+
+.image {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.details {
+    width: 70%;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: underline;
+    font: bold 24px Calibri;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.product-sub {
+    float: left;
+    width: 100px;
+    height: 52px;
+
+}
+
+.product-sub p {
+  
+    text-align: left;
+    font: 16px Calibri;
+    letter-spacing: 0px;
+    color: #000000;
+    font-style: italic;
+    margin: 0px;
+    font-weight: 800;
+}
+
+.btn-group {
+    display: inline-block;
+    float: left;
+}
+
+.btn-group button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #e0e0e0;
+    position: relative;
+    top: 30px;
+    padding: 5px 12px;
+    cursor: pointer;
+    float: left;
+}
+
+#unique {
+    background: #e0e0e0;
+}
+
+.cart-button {
+    width: 152px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    background: #FFA500 0% 0% no-repeat padding-box;
+    border-radius: 48px;
+    border: 0px;
+    padding-right: 30px;
+    text-align: right;
+
+}
+
+.cart-button-new {
+    width: 152px;
+    height: 40px;
+    position: relative;
+
+    background: #FFA500 0% 0% no-repeat padding-box;
+    border-radius: 48px;
+    border: 0px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.addCart {
+    position: relative;
+    float: left;
+}
+
+.addCart img {
+    position: relative;
+    top: 28px;
+    left: 138px;
+    z-index: 1;
+}
+
+.addCart-new img {
+    position: relative;
+    top: 36px;
+    left: 13px;
+    z-index: 1;
+}
+
+.product-list {
+    margin-top: 16px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 16px #00000008;
+    padding: 19px;
+    position: relative;
+    top: 60px;
+    height: 60px;
+}
+
+.productListNew {
+    position: absolute;
+    width: 100%;
+}
+
+.lists {
+    width: 12%;
+    float: left;
+}
+
+.product-list div h2 {
+    font-size: 16px;
+}
+
+.loadMore {
+    position: relative;
+    right: 12px;
+    color: black;
+    border: 2px solid #555555;
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+    padding: 19px;
+    box-shadow: 6px 6px 16px #00000008;
+    border: 1px solid #000000;
+    border-radius: 40px;
+}
+
+.filter-button {
+    position: relative;
+    left: 10px;
+    color: black;
+    border: 2px solid #555555;
+    width: 100px;
+    height: 32px;
+    margin-top: 10px;
+
+    box-shadow: 6px 6px 16px #00000008;
+    border: 1px solid #000000;
+    border-radius: 40px;
+}
+
+.filters {
+    width: 50%;
+    float: left;
+    display: flex;
+}
+.productBlock{
+    display: inline-block;
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .heading {
+        top: 111px;
+        left: 40px;
+        height: 28px;
+        text-align: left;
+        font: bold 28px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        text-decoration: none;
+        
+
+    }
+    .productBlock{
+        display: inline-block;
+    }
+    .container {
+        padding: 0px 40px;
+
+    }
+    .listPosition{
+        position: relative;
+        top:10px;
+    }
+    #prodDisplay{
+        display: none;
+    }
+    .filter {
+        font-style: italic;
+        float: left;
+        font: 16px Calibri;
+        color: #363636;
+        width: 105px;
+
+    }
+    .lists p{
+   
+        text-align: left;
+        font: 16px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        font-style: italic;
+        margin: 0px;
+        font-weight: 800;
+    }
+
+    .sort {
+        font-style: italic;
+        float: right;
+        font: 16px Calibri;
+        color: #363636;
+        width: 70%;
+        text-align: right;
+    }
+
+    .products {
+        height: 175px;
+
+    }
+
+    .main-product {
+        float: left;
+        width: 48%;
+        padding: 5px;
+    }
+    .addCart-new{
+        position: relative;
+right: 45px;
+bottom: 15px;
+    }
+
+    .badge {
+        width: 153px;
+        height: 24px;
+        background: #FFA500 0% 0% no-repeat padding-box;
+        border-radius: 1px;
+        z-index: 1;
+        position: relative;
+        top: 12px;
+    }
+
+    .badge-text {
+        color: #000000;
+        font: bold 14px Calibri;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .popular-products {
+
+
+
+        height: 190px;
+        position: relative;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 1px 1px 20px #00000008;
+        display: flex;
+    }
+
+    .blid {
+        position: absolute;
+        bottom: 90px;
+        left: 100px;
+        width: 41px;
+        height: 73px
+    }
+
+    #widthValue {
+        float: left;
+        width: 100px;
+        height: 52px;
+    }
+
+    .tyre {
+        width: 123px;
+        height: 123px;
+        position: relative;
+        top: 43px;
+    }
+
+    .image {
+        width: 30%;
+        padding-left: 10px;
+    }
+
+    .details {
+        width: 70%;
+    }
+
+    h2 {
+        text-align: left;
+        text-decoration: underline;
+        font: bold 24px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+
+    .product-sub {
+        float: left;
+        width: 100px;
+        height: 52px;
+    }
+
+    .product-sub p {
+
+        text-align: left;
+        font: 16px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        font-style: italic;
+        margin: 0px;
+        font-weight: 800;
+    }
+
+    .btn-group {
+        display: inline-block;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .btn-group button {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 0.25px solid #e0e0e0;
+        position: relative;
+        top: 30px;
+        padding: 5px 12px;
+        cursor: pointer;
+        float: left;
+    }
+
+    #unique {
+        background: #e0e0e0;
+    }
+
+    .cart-button {
+        width: 152px;
+        height: 40px;
+        position: relative;
+        top: 20px;
+        left: 100px;
+        background: #FFA500 0% 0% no-repeat padding-box;
+        border-radius: 48px;
+        border: 0px;
+        padding-right: 30px;
+        text-align: right;
+
+    }
+
+    h2 {
+
+        font: bold 20px Calibri;
+
+    }
+
+    .cart-button-new {
+        width: 152px;
+        height: 40px;
+        position: relative;
+
+        background: #FFA500 0% 0% no-repeat padding-box;
+        border-radius: 48px;
+        border: 0px;
+        padding-right: 30px;
+        text-align: right;
+    }
+
+    .addCart {
+        position: relative;
+        float: left;
+        right: 80px;
+    }
+
+    .addCart img {
+        position: relative;
+        top: 28px;
+        left: 138px;
+        z-index: 1;
+    }
+
+    .addCart-new img {
+        position: relative;
+        top: 36px;
+        left: 13px;
+        z-index: 1;
+    }
+
+    .product-list {
+        margin-top: 16px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 6px 6px 16px #00000008;
+        padding: 19px;
+        position: relative;
+        top: 60px;
+        height: 60px;
+        width:94%;
+    }
+
+    .productListNew {
+        position: absolute;
+        width: 100%;
+    }
+
+    .lists {
+        width: 12%;
+        float: left;
+    }
+
+    .product-list div h2 {
+        font-size: 16px;
+    }
+
+    .loadMore {
+        position: relative;
+        right: 12px;
+        color: black;
+        border: 2px solid #555555;
+        width: 100%;
+        height: 48px;
+        margin-top: 10px;
+        padding: 19px;
+        box-shadow: 6px 6px 16px #00000008;
+        border: 1px solid #000000;
+        border-radius: 40px;
+    }
+
+    .filter-button {
+        position: relative;
+        left: 10px;
+        color: black;
+        border: 2px solid #555555;
+        width: 100px;
+        height: 32px;
+        margin-top: 10px;
+
+        box-shadow: 6px 6px 16px #00000008;
+        border: 1px solid #000000;
+        border-radius: 40px;
+    }
+
+    .filters {
+        width: 50%;
+        float: left;
+        display: flex;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1)  {
+
+        .heading {
+            top: 111px;
+            left: 40px;
+            height: 28px;
+            text-align: left;
+            font: bold 28px Calibri;
+            letter-spacing: 0px;
+            color: #000000;
+            text-decoration: none;
+            
+    
+        }
+        .productBlock{
+            display: inline-flex;
+        }
+        .container {
+            padding: 0px 40px;
+    
+        }
+    
+        .filter {
+            font-style: italic;
+            float: left;
+            font: 16px Calibri;
+            color: #363636;
+            width: 105px;
+    
+        }
+        .lists p{
+   
+            text-align: left;
+            font: 16px Calibri;
+            letter-spacing: 0px;
+            color: #000000;
+            font-style: italic;
+            margin: 0px;
+            font-weight: 800;
+        }
+        #prodDisplay{
+            display: none;
+        }
+        .sort {
+            font-style: italic;
+            float: right;
+            font: 16px Calibri;
+            color: #363636;
+            width: 70%;
+            text-align: right;
+        }
+    
+        .products {
+            height: 175px;
+    
+        }
+    
+        .main-product {
+            float: left;
+            width: 48%;
+            padding: 5px;
+        }
+    
+        .badge {
+            width: 153px;
+            height: 24px;
+            background: #FFA500 0% 0% no-repeat padding-box;
+            border-radius: 1px;
+            z-index: 1;
+            position: relative;
+            top: 12px;
+        }
+    
+        .badge-text {
+            color: #000000;
+            font: bold 14px Calibri;
+            padding: 5px;
+            text-align: center;
+        }
+    
+        .popular-products {
+            height: 220px;
+            position: relative;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 1px 1px 20px #00000008;
+            display: flex;
+        }
+        .lists img{
+            text-align: center;
+        }
+        .blid {
+            position: absolute;
+            bottom: 100px;
+            left: 88px;
+           
+    width: 28px;
+        }
+        #blackLogo{
+            text-align: center;
+        }
+        #widthValue {
+            float: left;
+            width: 90px;
+            height: 52px;
+        }
+    
+        .tyre {
+            width: 103px;
+            height: 103px;
+            position: relative;
+            top: 70px;
+        }
+    
+        .image {
+            width: 27%;
+            padding-left: 10px;
+        }
+    
+        .details {
+            width: 70%;
+        }
+    
+        h2 {
+            text-align: left;
+            text-decoration: underline;
+            font: bold 24px Calibri;
+            letter-spacing: 0px;
+            color: #000000;
+        }
+    
+        .product-sub {
+            float: left;
+            width: 70px;
+            height: 52px;
+        }
+    
+        .product-sub p {
+    
+            text-align: left;
+            font: 16px Calibri;
+            letter-spacing: 0px;
+            color: #000000;
+            font-style: italic;
+            margin: 0px;
+            font-weight: 800;
+        }
+    
+        .product-list .btn-group {
+            display: inline-block;
+            position: relative;
+    left: -30px;
+    bottom:10px;
+        }
+    
+        .btn-group button {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 0.25px solid #e0e0e0;
+            position: relative;
+            top: 30px;
+            padding: 5px 12px;
+            cursor: pointer;
+            float: left;
+        }
+    
+        #unique {
+            background: #e0e0e0;
+        }
+    
+        .cart-button {
+            width: 135px;
+            height: 40px;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            background: #FFA500 0% 0% no-repeat padding-box;
+            border-radius: 48px;
+            border: 0px;
+            padding-right: 30px;
+            text-align: right;
+    
+        }
+    
+        h2 {
+    
+            font: bold 20px Calibri;
+    
+        }
+    
+        .cart-button-new {
+            width: 152px;
+            height: 40px;
+            position: relative;
+    
+            background: #FFA500 0% 0% no-repeat padding-box;
+            border-radius: 48px;
+            border: 0px;
+            padding-right: 30px;
+            text-align: right;
+        }
+    
+        .addCart {
+            position: relative;
+            float: left;
+            right: 80px;
+        }
+        .addCart-new{
+            position: relative;
+    right: 45px;
+    bottom: 15px;
+        }
+        .addCart img {
+            position: relative;
+            top: 28px;
+            left: 138px;
+            z-index: 1;
+        }
+    
+        .addCart-new img {
+            position: relative;
+            top: 36px;
+            left: 13px;
+            z-index: 1;
+        }
+        
+        .product-list {
+            margin-top: 16px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 6px 6px 16px #00000008;
+            padding: 19px;
+            position: relative;
+            top: 105px;
+            height: 60px;
+            width: 94%;
+        }
+    
+        .productListNew {
+            position: absolute;
+            width: 100%;
+        }
+    
+        .lists {
+            width: 12%;
+            float: left;
+        }
+    
+        .product-list div h2 {
+            font-size: 16px;
+        }
+    
+        .loadMore {
+            position: relative;
+            right: 12px;
+            color: black;
+            border: 2px solid #555555;
+            width: 100%;
+            height: 48px;
+            margin-top: 40px;
+            padding: 19px;
+            box-shadow: 6px 6px 16px #00000008;
+            border: 1px solid #000000;
+            border-radius: 40px;
+        }
+    
+        .filter-button {
+            position: relative;
+            left: 10px;
+            color: black;
+            border: 2px solid #555555;
+            width: 100px;
+            height: 32px;
+            margin-top: 10px;
+    
+            box-shadow: 6px 6px 16px #00000008;
+            border: 1px solid #000000;
+            border-radius: 40px;
+        }
+    
+        .filters {
+            width: 50%;
+            float: left;
+            display: flex;
+        }
+    
+    
+    
+}
+@media only screen 
+  and (min-device-width: 767px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+        .heading {
+            top: 111px;
+            left: 40px;
+            height: 28px;
+            text-align: left;
+            font: bold 28px Calibri;
+            letter-spacing: 0px;
+            color: #000000;
+            text-decoration: none;
+            
+    
+        }
+        .productBlock{
+            display: inline-block;
+        }
+        .container {
+            padding: 0px 10px;
+    
+        }
+    
+        .filter {
+            font-style: italic;
+            float: left;
+            font: 16px Calibri;
+            color: #363636;
+            width: 105px;
+    
+        }
+    
+        .sort {
+            font-style: italic;
+            float: right;
+            font: 16px Calibri;
+            color: #363636;
+            width: 70%;
+            text-align: right;
+        }
+    
+        .products {
+            height: 175px;
+    
+        }
+    
+        .main-product {
+            float: left;
+            width: 48%;
+            padding: 5px;
+        }
+    
+        .badge {
+            width: 153px;
+            height: 24px;
+            background: #FFA500 0% 0% no-repeat padding-box;
+            border-radius: 1px;
+            z-index: 1;
+            position: relative;
+            top: 12px;
+        }
+    
+        .badge-text {
+            color: #000000;
+            font: bold 14px Calibri;
+            padding: 5px;
+            text-align: center;
+        }
+        #prodDisplay{
+            display: block;
+            margin-top: 16px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 6px 6px 16px #00000008;
+            padding: 19px;
+            position: relative;
+            top: -10px;
+            margin-right: 10px;
+            width: 43%;
+            float: left;
+            height: 205px;
+        }
+        .popular-products {
+    
+    
+    
+            height: 236px;
+            position: relative;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 1px 1px 20px #00000008;
+            display: flex;
+        }
+    
+        .blid {
+            position: absolute;
+            bottom: 142px;
+            left: 88px;
+            left: 88px;
+    width: 28px;
+        }
+        
+        .lists p{
+   
+         
+            font-weight: 800;
+        }
+        #widthValue {
+            float: left;
+            width: 90px;
+            height: 52px;
+        }
+    
+        .tyre {
+            width: 103px;
+            height: 103px;
+            position: relative;
+            top: 36px;
+        }
+    
+        .image {
+            width: 30%;
+            padding-left: 10px;
+        }
+    
+        .details {
+            width: 70%;
+            position: relative;
+            left: 20px;
+
+        }
+    
+        h2 {
+            text-align: left;
+            text-decoration: underline;
+            font: bold 16px Calibri;
+            letter-spacing: 0px;
+            color: #000000;
+            width: 100%;
+        }
+    
+        .product-sub {
+            float: left;
+            width: 90px;
+            height: 52px;
+        }
+        .lists img{
+            width:44px;
+            height: 36px;
+        }
+        .product-sub p {
+    
+            text-align: left;
+            font: 16px Calibri;
+            letter-spacing: 0px;
+            color: #000000;
+            font-style: italic;
+            margin: 0px;
+            font-weight: 800;
+        }
+        .product-sub img{
+            width:38px;
+        }
+        #btnid {
+            display: inline-block;
+        
+            position: absolute;
+            /* right: -17px; */
+            left: -110px;
+        }
+    
+        .btn-group button {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border: 0.25px solid #e0e0e0;
+            position: relative;
+            top: 30px;
+            padding: 5px 12px;
+            cursor: pointer;
+            float: left;
+        }
+    
+        #unique {
+            background: #e0e0e0;
+        }
+    
+        .cart-button {
+            width: 135px;
+            height: 40px;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            background: #FFA500 0% 0% no-repeat padding-box;
+            border-radius: 48px;
+            border: 0px;
+            padding-right: 30px;
+            text-align: right;
+    
+        }
+    
+       
+    
+        .cart-button-new {
+            width: 120px;
+            height: 40px;
+            position: relative;
+            right: 28px;
+            background: #FFA500  no-repeat ;
+            border-radius: 48px;
+            border: 0px;
+            padding-right: 30px;
+            text-align: right;
+            top: 31px;
+        }
+        .addCart {
+            position: relative;
+            float: left;
+            right: 80px;
+        }
+    
+        .addCart img {
+            position: relative;
+            top: 28px;
+            left: 138px;
+            z-index: 1;
+        }
+    
+        .addCart-new img {
+            position: relative;
+            
+            left: -3px;
+            z-index: 1;
+            width: 20px;
+            height: 20px;
+        }
+        #btnid{
+            display: inline-block;
+            
+            position: absolute;
+            left: -110px;
+            top: 160px;
+        }
+        .product-list {
+           display: none;
+        
+        }
+    
+        .productListNew {
+            position: absolute;
+            width: 100%;
+        }
+    
+        .lists {
+            width: 50%;
+            float: left;
+        }
+    
+        .product-list div h2 {
+            font-size: 16px;
+        }
+    
+        .loadMore {
+          
+            color: black;
+            border: 2px solid #555555;
+            width: 100%;
+            height: 48px;
+            margin-top: 40px;
+            padding: 19px;
+            box-shadow: 6px 6px 16px #00000008;
+            border: 1px solid #000000;
+            border-radius: 40px;
+        }
+    
+        .filter-button {
+            position: relative;
+            left: 10px;
+            color: black;
+            border: 2px solid #555555;
+            width: 100px;
+            height: 32px;
+            margin-top: 10px;
+    
+            box-shadow: 6px 6px 16px #00000008;
+            border: 1px solid #000000;
+            border-radius: 40px;
+        }
+    
+        .filters {
+            width: 50%;
+            float: left;
+            display: flex;
+        }
+    
+    
+    
+}
+@media (min-width: 374px) and (max-width: 766px) {
+
+    .flex-container,
+    hr {
+        display: none;
+    }
+
+    .heading {
+        top: 111px;
+        left: 40px;
+        height: 28px;
+        text-align: left;
+        font: bold 28px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        text-decoration: none;
+        
+
+    }
+    .productBlock{
+        display: inline-block;
+    }
+    .container {
+        padding: 0px 10px;
+
+    }
+
+    .filter {
+        font-style: italic;
+        float: left;
+        font: 16px Calibri;
+        color: #363636;
+        width: 105px;
+
+    }
+
+    .sort {
+        font-style: italic;
+        float: right;
+        font: 16px Calibri;
+        color: #363636;
+        width: 70%;
+        text-align: right;
+    }
+    .lists p{
+   
+         
+        font-weight: 800;
+    }
+    .products {
+        height: 304px;
+        display: flex;
+        overflow-x: scroll;
+
+    }
+
+    .main-product {
+        float: left;
+        width: 82%;
+        padding: 5px;
+    }
+
+    .badge {
+        width: 153px;
+        height: 24px;
+        background: #FFA500 0% 0% no-repeat padding-box;
+        border-radius: 1px;
+        z-index: 1;
+        position: relative;
+        top: 12px;
+    }
+
+    .badge-text {
+        color: #000000;
+        font: bold 14px Calibri;
+        padding: 5px;
+        text-align: center;
+    }
+    #prodDisplay{
+        display: block;
+        margin-top: 16px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 6px 6px 16px #00000008;
+        padding: 19px;
+        position: relative;
+        top: -110px;
+        margin-right: 10px;
+        width: 90%;
+        float: left;
+        height: 205px;
+    }
+    .popular-products {
+        height: 236px;
+        position: relative;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 1px 1px 20px #00000008;
+        display: flex;
+        width: 278px;
+    }
+    .mobileAdjust{
+        top:-100px;
+    }
+    .blid {
+        position: absolute;
+        bottom: 142px;
+        left: 88px;
+        left: 88px;
+width: 28px;
+    }
+
+    #widthValue {
+        float: left;
+        width: 100px;
+        height: 52px;
+    }
+    #widthValueMobile{
+        width: 50px;
+    }
+    .tyre {
+        width: 103px;
+        height: 103px;
+        position: relative;
+        top: 36px;
+    }
+
+    .image {
+        width: 30%;
+        padding-left: 5px;
+    }
+
+    .details {
+        width: 70%;
+        position: relative;
+        left: 45px;
+
+    }
+
+    h2 {
+        text-align: left;
+        text-decoration: underline;
+        font: bold 16px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        width: 100%;
+    }
+
+    .product-sub {
+        float: left;
+        width: 45px;
+        height: 52px;
+    }
+    .lists img{
+        width:44px;
+        height: 36px;
+    }
+    .product-sub p {
+
+        text-align: left;
+        font: 16px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        font-style: italic;
+        margin: 0px;
+        font-weight: 800;
+    }
+    .product-sub img{
+        width:38px;
+    }
+    #btnid {
+        display: inline-block;
+        
+        left: -110px;
+    }
+
+    .btn-group button {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 0.25px solid #e0e0e0;
+        position: relative;
+        top: 30px;
+        padding: 5px 12px;
+        cursor: pointer;
+        float: left;
+    }
+
+    #unique {
+        background: #e0e0e0;
+    }
+
+    .cart-button {
+        width: 77px;
+        height: 35px;
+        position: relative;
+        top: 18px;
+        left: 111px;
+        background: #FFA500 no-repeat padding-box;
+        border-radius: 48px;
+        border: 0px;
+        padding-right: 30px;
+        text-align: right;
+
+    }
+
+   .cart-button span{
+       display: none;
+   }
+
+    .cart-button-new {
+        width: 120px;
+        height: 40px;
+        position: relative;
+        right: 28px;
+        background: #FFA500  no-repeat ;
+        border-radius: 48px;
+        border: 0px;
+        padding-right: 30px;
+        text-align: right;
+        top: 20px;
+    }
+    .addCart {
+        position: relative;
+        float: left;
+        right: 80px;
+    }
+
+    .addCart img {
+        position: absolute;
+        
+    }
+
+    .addCart-new img {
+        position: relative;
+        top:24px;
+        left: -3px;
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+    }
+    #btnid{
+        display: inline-block;
+        
+        position: absolute;
+        left: -110px;
+        top: 160px;
+    }
+    .product-list {
+       display: none;
+    
+    }
+
+    .productListNew {
+        position: absolute;
+        width: 100%;
+    }
+
+    .lists {
+        width: 50%;
+        float: left;
+    }
+
+    .product-list div h2 {
+        font-size: 16px;
+    }
+
+    .loadMore {
+       display: block;
+    }
+
+    .filter-button {
+        position: relative;
+        left: 10px;
+        color: black;
+        border: 2px solid #555555;
+        width: 100px;
+        height: 32px;
+        margin-top: 10px;
+
+        box-shadow: 6px 6px 16px #00000008;
+        border: 1px solid #000000;
+        border-radius: 40px;
+    }
+
+    .filters {
+        width: 50%;
+        float: left;
+        display: flex;
+    }
+}
+@media (max-width: 375px)  {
+    .flex-container,
+    hr {
+        display: none;
+    }
+
+    .heading {
+        top: 111px;
+        left: 40px;
+        height: 28px;
+        text-align: left;
+        font: bold 28px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        text-decoration: none;
+        
+
+    }
+    .productBlock{
+        display: inline-block;
+    }
+    .container {
+        padding: 0px 10px;
+
+    }
+
+    .filter {
+        font-style: italic;
+        float: left;
+        font: 16px Calibri;
+        color: #363636;
+        width: 105px;
+
+    }
+
+    .sort {
+        font-style: italic;
+        float: right;
+        font: 16px Calibri;
+        color: #363636;
+        width: 70%;
+        text-align: right;
+    }
+    .lists p{
+   
+         
+        font-weight: 800;
+    }
+    .products {
+        height: 304px;
+        display: flex;
+        overflow-x: scroll;
+
+    }
+
+    .main-product {
+        float: left;
+        width: 82%;
+        padding: 5px;
+    }
+
+    .badge {
+        width: 153px;
+        height: 24px;
+        background: #FFA500 0% 0% no-repeat padding-box;
+        border-radius: 1px;
+        z-index: 1;
+        position: relative;
+        top: 12px;
+    }
+
+    .badge-text {
+        color: #000000;
+        font: bold 14px Calibri;
+        padding: 5px;
+        text-align: center;
+    }
+    #prodDisplay{
+        display: block;
+        margin-top: 16px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 6px 6px 16px #00000008;
+        padding: 19px;
+        position: relative;
+        top: -110px;
+        margin-right: 10px;
+        width: 90%;
+        float: left;
+        height: 205px;
+    }
+    .popular-products {
+        height: 236px;
+        position: relative;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 1px 1px 20px #00000008;
+        display: flex;
+        width: 278px;
+    }
+    .mobileAdjust{
+        top:-100px;
+    }
+    .blid {
+        position: absolute;
+        bottom: 142px;
+        left: 88px;
+        left: 88px;
+width: 28px;
+    }
+
+    #widthValue {
+        float: left;
+        width: 100px;
+        height: 52px;
+    }
+    #widthValueMobile{
+        width: 50px;
+    }
+    .tyre {
+        width: 103px;
+        height: 103px;
+        position: relative;
+        top: 36px;
+    }
+
+    .image {
+        width: 30%;
+        padding-left: 5px;
+    }
+
+    .details {
+        width: 70%;
+        position: relative;
+        left: 45px;
+
+    }
+
+    h2 {
+        text-align: left;
+        text-decoration: underline;
+        font: bold 16px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        width: 100%;
+    }
+
+    .product-sub {
+        float: left;
+        width: 45px;
+        height: 52px;
+    }
+    .lists img{
+        width:44px;
+        height: 36px;
+    }
+    .product-sub p {
+
+        text-align: left;
+        font: 16px Calibri;
+        letter-spacing: 0px;
+        color: #000000;
+        font-style: italic;
+        margin: 0px;
+        font-weight: 800;
+    }
+    .product-sub img{
+        width:38px;
+    }
+    #btnid {
+        display: inline-block;
+        
+        left: -110px;
+    }
+
+    .btn-group button {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 0.25px solid #e0e0e0;
+        position: relative;
+        top: 30px;
+        padding: 5px 12px;
+        cursor: pointer;
+        float: left;
+    }
+
+    #unique {
+        background: #e0e0e0;
+    }
+
+    .cart-button {
+        width: 77px;
+        height: 35px;
+        position: relative;
+        top: 18px;
+        left: 111px;
+        background: #FFA500 no-repeat padding-box;
+        border-radius: 48px;
+        border: 0px;
+        padding-right: 30px;
+        text-align: right;
+
+    }
+
+   .cart-button span{
+       display: none;
+   }
+
+    .cart-button-new {
+        width: 120px;
+        height: 40px;
+        position: relative;
+        right: 28px;
+        background: #FFA500  no-repeat ;
+        border-radius: 48px;
+        border: 0px;
+        padding-right: 30px;
+        text-align: right;
+        top: 20px;
+    }
+    .addCart {
+        position: relative;
+        float: left;
+        right: 80px;
+    }
+
+    .addCart img {
+        position: absolute;
+        
+    }
+
+    .addCart-new img {
+        position: relative;
+        top:24px;
+        left: -3px;
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+    }
+    #btnid{
+        display: inline-block;
+        
+        position: absolute;
+        left: -110px;
+        top: 160px;
+    }
+    .product-list {
+       display: none;
+    
+    }
+
+    .productListNew {
+        position: absolute;
+        width: 100%;
+    }
+
+    .lists {
+        width: 50%;
+        float: left;
+    }
+
+    .product-list div h2 {
+        font-size: 16px;
+    }
+
+    .loadMore {
+       display: block;
+    }
+
+    .filter-button {
+        position: relative;
+        left: 10px;
+        color: black;
+        border: 2px solid #555555;
+        width: 100px;
+        height: 32px;
+        margin-top: 10px;
+
+        box-shadow: 6px 6px 16px #00000008;
+        border: 1px solid #000000;
+        border-radius: 40px;
+    }
+
+    .filters {
+        width: 50%;
+        float: left;
+        display: flex;
+    }
+}

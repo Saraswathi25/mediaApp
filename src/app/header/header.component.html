@@ -1,0 +1,26 @@
+
+<div class="header">
+    <div>
+        <a href="#" class="menuIcon"></a>
+    </div>
+    <a href="#logo" class="logo"></a>
+    
+      
+          <input type="text" placeholder="   Search" class="search-container" name="search">
+          <span class="imgBackground"><img class="search"></span>
+   
+    <ul class="header-right">
+<li class="iconList" ><div><span (click)="dropdown()" class="nav-icon" id="account"><a  ></a><p>Account</p></span></div></li>
+<div *ngIf="showDropdown" id="dropdown-content">
+    <a href="#">Account</a>
+    <a href="#">Call Us</a>
+    <a href="#">Give Feedback</a>
+    <a href="#">Log Out</a>
+  </div>
+<li class="iconList" ><div><span  class="nav-icon" id="Orders"><a  ></a><p>Orders</p></span></div></li>
+<li class="iconList" ><div><span  class="nav-icon cart" id="Cart"><a  ></a><p id="cartpara">Cart</p></span></div></li>
+
+</ul>
+  </div>
+  
+ 

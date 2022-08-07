@@ -1,0 +1,111 @@
+{
+    "mainProduct":[
+        {
+           "productName":"Continental - Contiecocontact 5",
+           "code":"205/55 R16 H",
+           "value":"SUV",
+           "Stock":"Stock",
+           "Total":"Total",
+           "Price":"Price",
+           "cost" :340,
+           "costValue" :340,
+           "qnty" :1,
+           "available":54
+        },
+        {
+         "productName":"Continental - Contiecocontact 5",
+         "code":"205/55 R16 H",
+         "value":"SUV",
+         "Stock":"Stock",
+         "Total":"Total",
+         "Price":"Price",
+         "cost" :340,
+         "costValue" :340,
+         "qnty" :1,
+         "available":20
+
+      }
+    ],
+
+    "subProduct":[
+      {
+         "productName":"Continental - Contiecocontact 5",
+         "code":"205/55 R16 H",
+         "value":"SUV",
+         "Stock":"Stock",
+         "Total":"Total",
+         "Price":"Price",
+         "cost" :340,
+         "costValue" :340,
+         "qnty" :1,
+         "available":20
+
+      },
+      {
+         "productName":"Continental - Contiecocontact 5",
+         "code":"205/55 R16 H",
+         "value":"SUV",
+         "Stock":"Stock",
+         "Total":"Total",
+         "Price":"Price",
+         "cost" :340,
+         "costValue" :340,
+         "qnty" :1,
+         "available":20
+
+      },
+      {
+         "productName":"Continental - Contiecocontact 5",
+         "code":"205/55 R16 H",
+         "value":"SUV",
+         "Stock":"Stock",
+         "Total":"Total",
+         "Price":"Price",
+         "cost" :340,
+         "costValue" :340,
+         "qnty" :1,
+         "available":10
+
+      },
+      {
+         "productName":"Continental - Contiecocontact 5",
+         "code":"205/55 R16 H",
+         "value":"SUV",
+         "Stock":"Stock",
+         "Total":"Total",
+         "Price":"Price",
+         "cost" :340,
+         "costValue" :340,
+         "qnty" :1,
+         "available":50
+
+      },
+      {
+         "productName":"Continental - Contiecocontact 5",
+         "code":"205/55 R16 H",
+         "value":"SUV",
+         "Stock":"Stock",
+         "Total":"Total",
+         "Price":"Price",
+         "cost" :340,
+         "costValue" :340,
+         "qnty" :1,
+         "available":20
+
+      },
+      {
+         "productName":"Continental - Contiecocontact 5",
+         "code":"205/55 R16 H",
+         "value":"SUV",
+         "Stock":"Stock",
+         "Total":"Total",
+         "Price":"Price",
+         "cost" :340,
+         "costValue" :340,
+         "qnty" :1,
+         "available":20
+
+      }
+    ]
+
+}

@@ -1,0 +1,132 @@
+<div class="container">
+    <h2 class="heading">Recommended Products</h2>
+    <div class="flex-container">
+        <div class="filters"><p class="filter">Selected Filters:</p> <button class="filter-button">Continental  X</button></div>
+        <div class="filters"><p class="sort">Sort by:</p> <button class="filter-button">Popularity </button></div>
+    </div>
+    <hr>
+    <div class="products" >
+        <div class="main-product" *ngFor="let data of mainProduct">
+        <div class="badge">
+                <p class="badge-text">Premium Bestseller</p>
+        </div>
+        <div class="popular-products">
+            <div class="image">
+                    <img src="../../assets/Pfad.png" class="tyre">
+                    <img src="../../assets/Bild/Bild 43.png" class="blid">
+                    
+            </div>
+            <div class="details">
+                <h2>{{data.productName}}</h2>
+                <div class="productBlock">
+                    <div class="product-sub" >
+                        <img src="../../assets/logo_black/Logo_OE_Approved_1c_black_final.png">
+                    </div>
+                    <div class="product-sub" id="widthValue">
+                        <p>{{data.code}}</p>
+                        <p>{{data.value}}</p>
+                    </div>
+                    <div class="product-sub" id="widthValue">
+                     
+                        <div>   <span style=" font-weight: 800;">{{data.Stock}}</span>
+                            <span  [ngClass]="{'outOfstock': data.available == 10,
+                            'warn': data.available > 10 && data.available == 20, 
+                            'stock': data.available > 30}"> </span></div>
+                        <div>   <span style=" font-weight: 800;">{{data.Price}}</span>
+                            <span style=" font-weight: 800;"> ₪{{data.cost}}</span></div>
+                     
+                        
+                    </div>
+                    <div class="product-sub" >
+                        <p>{{data.Total}}</p>
+                        <p><b>₪{{data.costValue}}</b></p>
+                    </div>
+                </div>
+                <div >
+                    <div class="btn-group" id="btnid">
+                        <button (click)="removeProduct(data)">-</button>
+                        <button id="unique">{{data.qnty}}</button>
+                       
+                        <button (click)="addProduct(data)">+</button>
+                      </div>
+                      <div class="addCart">
+                       <img src="../../assets/cart-black/cart-sharp.png"><button type="button" class="cart-button" ><span>Add to cart</span></button>
+                      </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+  
+    </div>
+    <div class="mobileAdjust">
+    <div class="product-list" *ngFor="let data of displayData">
+        <div class="productListNew" >
+        <div class="lists"><h2>{{data.productName}}</h2></div>
+        <div  class="lists" id="blackLogo"> <img src="../../assets/logo_black/Logo_OE_Approved_1c_black_final.png"></div>
+        <div  class="lists listPosition">  <p>{{data.code}}</p>
+            <p>{{data.value}}</p></div>
+        <div  class="lists stocking">  <p style="display: inline;">Stock</p>
+            <span  [ngClass]="{'outOfstock': data.available == 10,
+            'warn': data.available > 10 && data.available == 20, 
+            'stock': data.available > 30}"> </span></div>
+        <div class="lists listPosition"><p>{{data.Price}}</p>
+            <p> ₪{{data.cost}}</p></div>
+        <div class="lists"><div class="btn-group">
+            <button (click)="removeProduct(data)">-</button>
+                        <button id="unique">{{data.qnty}}</button>
+                       
+                        <button (click)="addProduct(data)">+</button>
+          </div></div>
+        <div class="lists listPosition"><p>{{data.Total}}</p>
+            <p><b>₪{{data.costValue}}</b></p></div>
+        <div class="lists"><div class="addCart-new">
+            <img src="../../assets/cart-black/cart-sharp.png"><button type="button" class="cart-button-new" >Add to cart</button>
+           </div></div>
+    </div>
+</div>
+<div class="product-list" id="prodDisplay" *ngFor="let data of subProduct">
+    <div class="productListNew">
+     
+    <div class="lists"><h2>{{data.productName}}</h2></div>
+    <div  class="lists"> <p>205/55 R16 H</p>
+        <p>SUV</p></div>
+    <div  class="lists"> <img src="../../assets/logo_black/Logo_OE_Approved_1c_black_final.png" style="float:left;margin-right: 22px;
+        position: relative;
+        top: 23px;">
+        <div  style="display: inline-block;">  <p style="margin-bottom: 0px; ">{{data.Stock}}</p>
+            <span  [ngClass]="{'outOfstock': data.available == 10,
+            'warn': data.available > 10 && data.available == 20, 
+            'stock': data.available > 30}"></span></div>
+    </div>
+    
+    <div  style="float: left; font-weight: 800;"><p style=" font-weight: 800;margin-bottom: 0px; ">{{data.Price}}</p>
+        <span style="font-weight: 800; "> ₪{{data.cost}}</span></div>
+    
+    <div ><p style="float:left;margin-left: 10px; font-weight: 800;">{{data.Total}}</p>
+        <span style="position: relative;
+        top: 17px;left:5px"><b>  ₪{{data.costValue}}</b></span></div>
+  
+        <div  style=" width: 52%;"><div class="btn-group">
+            <button (click)="removeProduct(data)">-</button>
+            <button id="unique">{{data.qnty}}</button>
+           
+            <button (click)="addProduct(data)">+</button>
+          </div></div>
+
+   
+  
+    <div class="lists" style="margin-left: 20%;"><div class="addCart-new">
+        <img src="../../assets/cart-black/cart-sharp.png"><button type="button" class="cart-button-new" >Add to cart</button>
+       </div></div>
+   
+</div>
+</div>
+
+
+
+<div style="margin-top: 86px;margin-left: 13px;">
+    <button class="loadMore" (click)="showMore()">Load More Products</button>
+</div>
+</div>
+
+</div>
